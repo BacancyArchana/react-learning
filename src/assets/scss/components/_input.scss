@@ -1,0 +1,25 @@
+.form-control {
+  display: flex;
+  flex-direction: column;
+
+  &_label {
+    font-size: 14px;
+    color: $color-secondary-dark;
+  }
+
+  &_input {
+    border: 1px solid $color-secondary-light;
+    padding: 10px 8px;
+    border-radius: 8px;
+    outline: none;
+
+    &:hover {
+      border-color: $color-secondary;
+    }
+  }
+
+  &_error {
+    color: $color-error;
+    font-size: 12px;
+  }
+}
